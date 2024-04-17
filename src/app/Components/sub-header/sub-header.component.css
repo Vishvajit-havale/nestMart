@@ -1,0 +1,84 @@
+.main-wrapper {
+  /* background-image: url(../../../assets/couroselBackground.png); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+
+  width: 100%;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.side-header {
+  width: 600px;
+  margin-left: 100px;
+}
+.side-header h1 {
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #253d4e;
+}
+.side-header p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7e7e7e;
+}
+.subscribe-wrapper {
+  width: 450px;
+  height: 54px;
+  border-radius: 50px;
+  background: #ffffff;
+}
+.subscribe-wrapper input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.subscribe-wrapper .subscribe-button {
+  background: #3bb77e;
+  width: 157.55px;
+  height: 54px;
+  border-radius: 50px;
+}
+.subscribe-wrapper .subscribe-button span {
+  color: #ffffff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media (max-width: 667px) {
+  .side-header {
+    width: 250px !important;
+    margin-left: 30px !important;
+  }
+  .side-header h1 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .side-header p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .subscribe-wrapper .subscribe-button {
+    width: 70px;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 0 15px;
+  }
+  .subscribe-wrapper {
+    width: 200px;
+  }
+  .subscribe-wrapper input {
+    width: 130px;
+  }
+  .subscribe-wrapper .subscribe-button span {
+    font-size: 12px;
+  }
+}

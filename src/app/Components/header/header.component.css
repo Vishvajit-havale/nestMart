@@ -1,0 +1,160 @@
+.header-wrapper {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  width: 180px;
+  height: 55px;
+}
+.searchBar {
+  width: 450px;
+  height: 54px;
+  border: 2px solid #bce3c9;
+  border-radius: 4px;
+}
+.searchBar select {
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+.searchBar input {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: 1px solid #cacaca;
+  outline: none;
+  font-size: 14px;
+  line-height: 16px;
+  height: 17px;
+}
+.locationSearch {
+  width: 164px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+}
+.locationSearch {
+  color: #3bb77e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 35px;
+}
+.header-options span {
+  color: #7e7e7e;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+.header-options img {
+  height: 25px;
+  width: 25px;
+  margin-right: 3px;
+}
+.allCategorySelect {
+  width: 255px;
+  height: 44px;
+  background: #3bb77e;
+  border-radius: 5px;
+}
+.allCategorySelect image {
+  height: 16px;
+  width: 16px;
+  background: #ffffff;
+}
+.allCategorySelect select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #ffffff;
+}
+.deals img {
+  width: 20px;
+  height: 21px;
+}
+.deals span {
+  /* background: #253d4e; */
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+}
+.top-header span {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 10px;
+  color: #7e7e7e;
+  margin-left: 5px;
+}
+.top-header select {
+  border: none;
+  outline: none;
+}
+.top-header .special {
+  color: #3bb77e;
+  font-weight: 700;
+}
+
+@media (max-width: 667px) {
+  .header-wrapper {
+    height: 70px;
+  }
+}
+
+.checkbtn {
+  font-size: 30px;
+  /* color: white; */
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  /* display: none; */
+}
+#check {
+  display: none;
+}
+
+@media (max-width: 858px) {
+  ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+  }
+  ul {
+    z-index: 999;
+    list-style: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #f3f3f3;
+    /* background: #2c3e50; */
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.9s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6 !important;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}

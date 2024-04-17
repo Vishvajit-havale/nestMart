@@ -1,0 +1,70 @@
+.main-wrapper {
+  border-radius: 15px;
+  background-image: url(../../../assets/kobiBackground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+}
+.filterHeading h1 {
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #253d4e;
+}
+.to {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #3bb77e;
+}
+.from {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #7e7e7e;
+}
+.filter-wrapper p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: left;
+  color: #7e7e7e;
+}
+.filter-wrapper span {
+  color: #687188;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.filter-wrapper input {
+  border: 2px solid #ced4da;
+}
+.filter-button {
+  background: #3bb77e;
+  width: 106.03px;
+  height: 39.59px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+input {
+  accent-color: #3bb77e;
+}
+.gajarImage img {
+  height: 80px;
+  width: 80px;
+}
+.productCard h6 {
+  color: #3bb77e;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}

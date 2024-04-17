@@ -1,0 +1,108 @@
+.main-wrapper h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  color: #253d4e;
+}
+.product {
+  height: 180px;
+  border-radius: 10px;
+  background: #f4f6fa;
+  border: 1px solid #f4f6fa;
+}
+@media (min-width: 667px) {
+  .main-wrapper .col-md-2 {
+    width: 12.5% !important;
+  }
+}
+.imageContainer {
+  height: 120px;
+}
+.imageContainer img {
+  height: 80px;
+  width: 80px;
+}
+.product h3 {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.filterBySell {
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+}
+
+.filterBySell h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.productCard h6 {
+  color: #253d4e;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+.stars {
+  font-size: 10px;
+}
+.ratting {
+  color: #b6b6b6;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  /* line-height: 24px; */
+  text-align: left;
+}
+.owner {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #b6b6b6;
+}
+.owner span {
+  color: #3bb77e;
+}
+.productFooter .price {
+  color: #3bb77e;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.oldPrice {
+  font-family: Quicksand;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #adadad;
+  text-decoration: underline;
+  text-align: center;
+  display: inline-block;
+}
+.addCard {
+  background: #def9ec;
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.addCard img {
+  height: 15px;
+  width: 15px;
+}
+.addCard span {
+  font-size: 12px;
+}

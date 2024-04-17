@@ -1,0 +1,53 @@
+.home-container {
+  background: url(../../../assets/map.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home-wrapper {
+  height: 550px;
+  width: 1050px;
+}
+.home-wrapper h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 86px;
+  font-family: "Poppins", sans-serif;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 23% calc(77% - 10px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+}
+.div1 {
+  grid-area: 1/1/2/2;
+}
+.div2 {
+  grid-area: 1/2/2/3;
+}
+.everyDayParrent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+}
+
+@media (max-width: 667px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+  }
+  .div2 {
+    grid-area: 1/1/2/2;
+  }
+  .div1 {
+    display: none;
+  }
+  .everyDayParrent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.category {
+  border-radius: 15px;
+}
+.category h3 {
+  color: #253d4e;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+}
+.category-option img {
+  height: 30px;
+  width: 30px;
+}
+.category-option {
+  border: 1px solid #f2f3f4;
+  border-radius: 5px;
+}
+
+.category-option .count {
+  width: 24px;
+  height: 24px;
+  /* padding: 4px 8.16px 5px 8.52px; */
+  text-align: center;
+  gap: 0px;
+  border-radius: 20px;
+  background: #bce3c9;
+}

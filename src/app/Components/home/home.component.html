@@ -1,0 +1,35 @@
+<div>
+  <div class="container mt-3" style="overflow: auto">
+    <div class="parent">
+      <div class="div1">
+        <app-category-search></app-category-search>
+        <div class="mt-2">
+          <app-filter></app-filter>
+        </div>
+      </div>
+      <div class="div2">
+        <app-products></app-products>
+        <div class="everyDayParrent mb-3">
+          <div
+            *ngFor="let item of everyDayProduct"
+            style="width: 300px; height: 200px"
+          >
+            <app-every-day-product [imageUrl]="item"></app-every-day-product>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <app-shop-by-category></app-shop-by-category>
+      <app-sub-header
+        [imageUrl]="'../../../assets/sabjiBanner.png'"
+        [heading]="
+          'Stay home & get your daily
+needs from our shop'
+        "
+        [subHeading]="'Start Your Daily Shopping with Nest Mart'"
+      ></app-sub-header>
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>

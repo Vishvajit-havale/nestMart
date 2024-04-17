@@ -1,0 +1,178 @@
+<div class="">
+  <div class="main-wrapper d-flex align-items-center">
+    <div class="side-header">
+      <h1>Don’t miss amazing grocery deals</h1>
+      <p class="mt-4">Sign up for the daily newsletter</p>
+      <div
+        class="subscribe-wrapper d-flex justify-content-between align-items-center mt-2 mt-sm-5"
+      >
+        <div>
+          <input class="ms-4" type="text" placeholder="enter your email" />
+        </div>
+        <div
+          class="subscribe-button d-flex justify-content-center align-items-center"
+        >
+          <span> Subscribe </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-3">
+  <div class="popular d-flex justify-content-between align-items-center">
+    <h2>Popular products</h2>
+    <div class="d-none d-sm-block">
+      <div>
+        <span class="ms-3">All</span>
+        <span class="ms-3">Milk & Daries</span>
+        <span class="ms-3">Coffee & Tea</span>
+        <span class="ms-3">Peat food</span>
+        <span class="ms-3">Meats</span>
+        <span class="ms-3">Vegetables</span>
+        <span class="ms-3">Fruits</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="my-2">
+  <div class="productsParrent">
+    <div class="product-card position-relative" *ngFor="let item of itemList">
+      <div
+        *ngIf="item == 1 || item == 3"
+        class="position-absolute d-flex justify-content-center align-items-center"
+        style="
+          height: 25px;
+          width: 50px;
+          background-color: #f74b81;
+          z-index: 99;
+          border-top-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+          color: wheat;
+          font-size: 14px;
+          font-weight: 500;
+        "
+      >
+        Hot
+      </div>
+      <div class="py-2 px-3">
+        <img src="../../../assets/product1.png" />
+        <div>
+          <span class="productName">Snack</span>
+        </div>
+        <div>
+          <h6 class="mb-1">Seeds of Change Organic Quinoe</h6>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="stars">
+            <i
+              class="fa fa-star fa-star1 fa-star2 ml-1"
+              style="color: orange"
+            ></i>
+            <i
+              style="color: gray"
+              class="fa fa-star fa-star1 fa-star2 ml-1"
+            ></i>
+            <i
+              style="color: gray"
+              class="fa fa-star fa-star1 fa-star2 ml-1"
+            ></i>
+            <i
+              style="color: gray"
+              class="fa fa-star fa-star1 fa-star2 ml-1"
+            ></i>
+            <i
+              style="color: gray"
+              class="fa fa-star fa-star1 fa-star2 ml-1"
+            ></i>
+          </div>
+          <div class="ratting ms-2">(4.0)</div>
+        </div>
+        <div class="owner">By <span>Nestfood</span></div>
+        <div class="productFooter">
+          <span class="price">$28.85</span>
+          <span class="oldPrice ms-1">$32.8</span>
+          <span class="addCard ms-2 px-1">
+            <img src="../../../assets/bucket.png" />
+            <span class="ms-1">Add</span></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dealOfDayWrapper mt-3 mb-5">
+  <div>
+    <h3>Deals Of The Day</h3>
+  </div>
+  <div class="dealProductWrapper">
+    <div
+      *ngFor="let item of dealProduct"
+      class="dealProduct position-relative mx-auto"
+    >
+      <div class="upperWrapper position-relative"></div>
+      <div class="lowerWrapper position-absolute">
+        <div class="d-flex justify-content-center mb-2">
+          <div class="timerPills mx-1 px-1 py-2 d-flex flex-column">
+            <span>450</span>
+            <span>Days</span>
+          </div>
+          <div class="timerPills mx-1 px-1 py-2 d-flex flex-column">
+            <span>450</span>
+            <span>Hours</span>
+          </div>
+          <div class="timerPills mx-1 px-1 py-2 d-flex flex-column">
+            <span>450</span>
+            <span>Mins</span>
+          </div>
+          <div class="timerPills mx-1 px-1 py-2 d-flex flex-column">
+            <span>450</span>
+            <span>Sec</span>
+          </div>
+        </div>
+
+        <div class="section py-4 px-4 mx-auto">
+          <div>
+            <h6 class="mb-1">Seeds of Change Organic Quinoe</h6>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="stars">
+              <i
+                class="fa fa-star fa-star1 fa-star2 ml-1"
+                style="color: orange"
+              ></i>
+              <i
+                style="color: gray"
+                class="fa fa-star fa-star1 fa-star2 ml-1"
+              ></i>
+              <i
+                style="color: gray"
+                class="fa fa-star fa-star1 fa-star2 ml-1"
+              ></i>
+              <i
+                style="color: gray"
+                class="fa fa-star fa-star1 fa-star2 ml-1"
+              ></i>
+              <i
+                style="color: gray"
+                class="fa fa-star fa-star1 fa-star2 ml-1"
+              ></i>
+            </div>
+            <div class="ratting ms-2">(4.0)</div>
+          </div>
+          <div class="owner">By <span>Nestfood</span></div>
+          <div class="productFooter">
+            <span class="price">$28.85</span>
+            <span class="oldPrice ms-1">$32.8</span>
+            <span class="addCard ms-2 px-1">
+              <img src="../../../assets/bucket.png" />
+              <span class="ms-1">Add</span></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

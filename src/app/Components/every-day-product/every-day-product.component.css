@@ -1,0 +1,32 @@
+.everyDayWrapper {
+  /* background-image: url(../../../assets//everyDayBanner.png); */
+  background-image: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.everyDayWrapper h1 {
+  width: 70%;
+  color: #253d4e;
+  font-family: Quicksand;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+}
+.everyDayWrapper button {
+  width: 83.61px;
+  height: 26.59px;
+  /* padding: 8px 9px 7.99px 13px; */
+  border-radius: 4px;
+  background: #3bb77e;
+  border: none;
+  font-family: Quicksand;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.6px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
